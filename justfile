@@ -5,7 +5,7 @@ rebase:
   bluebuild rebase --tempdir /var/tmp recipes/recipe.yml
 
 generate-iso:
-  sudo bluebuild generate-iso --iso-name blue95-latest.iso image ghcr.io/ledif/blue95:latest
+  sudo bluebuild generate-iso --iso-name blue95vs-latest.iso image ghcr.io/ledif/blue95vs:latest
 
 generate-live-iso:
   #!/bin/bash
@@ -22,7 +22,7 @@ generate-live-iso:
 
   sudo bluebuild build --tempdir /var/tmp recipes/recipe.yml
   cd scratch/titanoboa
-  just build localhost/blue95:latest 1 1
+  just build localhost/blue95vs:latest 1 1
 
 # Overwrite xfce4-panel-profile in repo based on current profile
 refresh-panel-profile:
