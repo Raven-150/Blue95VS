@@ -102,6 +102,8 @@ modules:
         - org.geany.Geany
         - org.libreoffice.LibreOffice
         - org.mozilla.firefox
+        - com.discordapp.Discord
+        
 
   # Regenerate initramfs because of plymouth
   - type: initramfs
