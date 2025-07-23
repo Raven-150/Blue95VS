@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: blue95
+name: Blue95VS
 description: A desktop for your childhood home's computer room
 
 base-image: ghcr.io/winblues/vauxite
@@ -18,6 +18,12 @@ modules:
       - steam
       - vscodium
       - obsidian
+      - bluefish
+      - git
+      - cmatrix
+      - oneko
+      - cool-retro-term
+      - htop
       - audacious
       - btop
       - catfish
