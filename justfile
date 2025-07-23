@@ -28,7 +28,7 @@ generate-live-iso:
 refresh-panel-profile:
   #!/bin/bash
   set -exuo pipefail
-  tmptar=$(mktemp -p /tmp blue95-profile.XXXXX)
+  tmptar=$(mktemp -p /tmp blue95vs-profile.XXXXX)
   xfce4-panel-profiles save $tmptar
   cd files/system/usr/share/winblues/chezmoi/dot_local/share/xfce-panel-profile/
   tar xf $tmptar
