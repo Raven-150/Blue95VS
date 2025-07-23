@@ -15,6 +15,9 @@ modules:
   - type: dnf
     install:
       packages:
+      - steam
+      - vscodium
+      - obsidian
       - audacious
       - btop
       - catfish
