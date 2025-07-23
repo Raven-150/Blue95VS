@@ -23,6 +23,7 @@ modules:
       - cmatrix
       - oneko
       - cool-retro-term
+      - fastfetch
       - htop
       - audacious
       - btop
@@ -36,6 +37,7 @@ modules:
       - mate-system-monitor
       - menulibre
       - neovim
+      - vim
       - orage
       - patch
       - podman-compose
@@ -47,6 +49,7 @@ modules:
       - qemu-device-display-virtio-vga
       - qemu-device-usb-redirect
       - qemu-img
+      - nerdifonts
       - qemu-system-x86-core
       - qemu-user-binfmt
       - qemu-user-static
@@ -71,8 +74,18 @@ modules:
       # Installer packages
       - python3-pillow
       - python3-gobject
+      - python3-pip
+      - sqlite
+      - python3-icoextract
       - gtk3
       - kmines
+      - gamescope.x86_64
+      - gamescope-libs.x86_64
+      - gamescope-libs.i686
+      - gamescope-shaders
+      - jupiter-sd-mounting-btrfs
+      - mangohud.x86_64 \
+      - mangohud.i686 
       # Fix taskbar icons for Xfce 4.20
       - gdk-pixbuf2-modules-extra
       # TODO: this is for Paint and we should package it properly and not
