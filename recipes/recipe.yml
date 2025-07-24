@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: Blue95VS
+name: blue95
 description: A desktop for your childhood home's computer room
 
 base-image: ghcr.io/winblues/vauxite
@@ -11,7 +11,7 @@ modules:
   - type: bling
     install:
       - 1password
-      
+
   - type: dnf
   ropos:
     nonfree: rpmfusion
@@ -22,15 +22,6 @@ modules:
   - type: dnf
     install:
       packages:
-      - https://github.com/VSCodium/vscodium/releases/download/1.102.24914/codium-1.102.24914-el8.aarch64.rpm
-      - codium-1.102.24914-el8.aarch64.rpm
-      - bluefish
-      - git
-      - cmatrix
-      - oneko
-      - cool-retro-term
-      - fastfetch
-      - htop
       - audacious
       - btop
       - catfish
@@ -43,7 +34,6 @@ modules:
       - mate-system-monitor
       - menulibre
       - neovim
-      - vim
       - orage
       - patch
       - podman-compose
@@ -55,7 +45,6 @@ modules:
       - qemu-device-display-virtio-vga
       - qemu-device-usb-redirect
       - qemu-img
-      - nerdfonts
       - qemu-system-x86-core
       - qemu-user-binfmt
       - qemu-user-static
@@ -80,9 +69,6 @@ modules:
       # Installer packages
       - python3-pillow
       - python3-gobject
-      - python3-pip
-      - sqlite
-      - python3-icoextract
       - gtk3
       - kmines
       # Fix taskbar icons for Xfce 4.20
@@ -120,4 +106,3 @@ modules:
   - type: initramfs
 
   - type: signing
-
