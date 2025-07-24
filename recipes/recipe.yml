@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: Blue95VS
+name: blue95vs
 description: A desktop for your childhood home's computer room
 
 base-image: ghcr.io/winblues/vauxite
@@ -17,39 +17,6 @@ modules:
       nonfree: negativo17
     install:
       packages:
-      #Steam Dependancies
-      - pipewire
-      - pipewire-libs
-      - pipewire-alsa
-      - pipewire-gstreamer
-      - pipewire-jack-audio-connection-kit
-      - pipewire-jack-audio-connection-kit-libs
-      - pipewire-plugin-libcamera
-      - pipewire-pulseaudio
-      - pipewire-utils
-      - wireplumber
-      - wireplumber-libs
-      - libaacs
-      - libbdplus
-      - libbluray
-      - libbluray-utils
-      - libdex-0.9.1
-      - libxcrypt-compat
-      - vulkan-tools
-      - mesa-dri-drivers
-      - mesa-filesystem
-      - mesa-libEGL
-      - mesa-libGL
-      - mesa-libgbm
-      - mesa-va-drivers
-      - mesa-vulkan-drivers
-      - mesa-va-drivers.i686
-      - xorg-x11-server-Xwayland
-      - bluez
-      - bluez-cups
-      - bluez-libs
-      - bluez-obexd
-      - switcheroo-control
       #Programs
       - steam
       - audacious
