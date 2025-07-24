@@ -12,14 +12,16 @@ modules:
     install:
       - 1password
   - type: dnf5
+  ropos:
+    nonfree: rpmfusion
     install:
       packages:
       - steam
-      - vscodium
-      - obsidian
   - type: dnf
     install:
       packages:
+      - https://github.com/VSCodium/vscodium/releases/download/1.102.24914/codium-1.102.24914-el8.aarch64.rpm
+      - codium-1.102.24914-el8.aarch64.rpm
       - bluefish
       - git
       - cmatrix
@@ -111,8 +113,7 @@ modules:
         - org.libreoffice.LibreOffice
         - org.mozilla.firefox
         - com.discordapp.Discord
-        
-
+        - md.obsidian.Obsidian
   # Regenerate initramfs because of plymouth
   - type: initramfs
 
