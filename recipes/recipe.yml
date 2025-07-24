@@ -24,6 +24,9 @@ modules:
       packages:
       - audacious
       - btop
+      - cool-retro-term
+      - cmatrix
+      - oneko
       - catfish
       - edk2-ovmf
       - libvirt
@@ -34,6 +37,7 @@ modules:
       - mate-system-monitor
       - menulibre
       - neovim
+      - vim
       - orage
       - patch
       - podman-compose
