@@ -11,19 +11,16 @@ modules:
   - type: bling
     install:
       - 1password
-
+      
   - type: dnf
     repos:
       nonfree: rpmfusion
     install:
       packages:
       - steam
-      
-  - type: dnf
-    install:
-      packages:
       - audacious
       - btop
+      - htop
       - cool-retro-term
       - cmatrix
       - oneko
