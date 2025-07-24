@@ -17,6 +17,40 @@ modules:
       nonfree: rpmfusion
     install:
       packages:
+      #Steam Dependancies
+      - pipewire
+      - pipewire-libs
+      - pipewire-alsa
+      - pipewire-gstreamer
+      - pipewire-jack-audio-connection-kit
+      - pipewire-jack-audio-connection-kit-libs
+      - pipewire-plugin-libcamera
+      - pipewire-pulseaudio
+      - pipewire-utils
+      - wireplumber
+      - wireplumber-libs
+      - libaacs
+      - libbdplus
+      - libbluray
+      - libbluray-utils
+      - libdex-0.9.1
+      - libxcrypt-compat
+      - vulkan-tools
+      - mesa-dri-drivers
+      - mesa-filesystem
+      - mesa-libEGL
+      - mesa-libGL
+      - mesa-libgbm
+      - mesa-va-drivers
+      - mesa-vulkan-drivers
+      - mesa-va-drivers.i686
+      - xorg-x11-server-Xwayland
+      - bluez
+      - bluez-cups
+      - bluez-libs
+      - bluez-obexd
+      - switcheroo-control
+      #Programs
       - steam
       - audacious
       - btop
@@ -24,9 +58,11 @@ modules:
       - cool-retro-term
       - cmatrix
       - oneko
+      - fastfetch
       - catfish
       - edk2-ovmf
       - libvirt
+      - gum
       - libvirt-nss
       - libcanberra-gtk3
       - lightdm-gtk-greeter-settings
@@ -70,6 +106,8 @@ modules:
       # Installer packages
       - python3-pillow
       - python3-gobject
+      - python3-icoextract
+      - python3-pip
       - gtk3
       - kmines
       # Fix taskbar icons for Xfce 4.20
