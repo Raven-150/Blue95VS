@@ -141,6 +141,7 @@ modules:
         - org.mozilla.firefox
         - com.discordapp.Discord
         - md.obsidian.Obsidian
+        - com.vscodium.codium
   # Regenerate initramfs because of plymouth
   - type: initramfs
 
