@@ -8,10 +8,6 @@ image-version: 42
 
 modules:
 
-  - type: bling
-    install:
-      - 1password
-      
   - type: dnf
     repos:
       nonfree: negativo17
@@ -19,6 +15,7 @@ modules:
       packages:
       #Programs
       - steam
+      - geany
       - audacious
       - btop
       - htop
@@ -103,12 +100,14 @@ modules:
         - com.github.k4zmu2a.spacecadetpinball
         - org.gtk.Gtk3theme.Chicago95
         - com.tomjwatson.Emote
-        - org.geany.Geany
         - org.libreoffice.LibreOffice
         - org.mozilla.firefox
         - com.discordapp.Discord
         - md.obsidian.Obsidian
+        - net.retrodeck.retrodeck
+        - com.github.tchx84.Flatseal
         - com.vscodium.codium
+        - com.moonlight_stream.Moonlight
   # Regenerate initramfs because of plymouth
   - type: initramfs
 
