@@ -11,7 +11,7 @@ modules:
   - type: bling
     install:
       - 1password
-  - type: dnf5
+  - type: dnf
   ropos:
     nonfree: rpmfusion
     install:
