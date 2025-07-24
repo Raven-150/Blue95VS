@@ -11,12 +11,14 @@ modules:
   - type: bling
     install:
       - 1password
+      
   - type: dnf
   ropos:
     nonfree: rpmfusion
     install:
       packages:
       - steam
+      
   - type: dnf
     install:
       packages:
