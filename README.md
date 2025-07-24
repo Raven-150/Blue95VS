@@ -12,13 +12,7 @@ Based on Fedora Atomic Xfce with the [Chicago95](https://github.com/grassmunk/Ch
 
 
 ## Try It Out
-
-> [!NOTE]  
-> Live CD is a new feature and is still in testing.
-
-We are now creating a [Live ISO](https://pub-969fbc86b5f24e4d81c6d022e8fd8dde.r2.dev/blue95-live-latest.iso) that can be used to boot into a Blue95 live environment. Test it out without needing to install anything.
-
-Note that the included installer is an alpha version with many missing features. It is recommended to install Blue95 via the methods listed in the [Install Guide](https://blues.win/95/docs/install).
+> sudo bootc switch ghcr.io/raven-150/blue95vs:latest
 
 ## Installation
 
