@@ -11,13 +11,15 @@ modules:
   - type: bling
     install:
       - 1password
-
-  - type: dnf
+  - type: dnf5
     install:
       packages:
       - steam
       - vscodium
       - obsidian
+  - type: dnf
+    install:
+      packages:
       - bluefish
       - git
       - cmatrix
@@ -49,7 +51,7 @@ modules:
       - qemu-device-display-virtio-vga
       - qemu-device-usb-redirect
       - qemu-img
-      - nerdifonts
+      - nerdfonts
       - qemu-system-x86-core
       - qemu-user-binfmt
       - qemu-user-static
@@ -79,13 +81,6 @@ modules:
       - python3-icoextract
       - gtk3
       - kmines
-      - gamescope.x86_64
-      - gamescope-libs.x86_64
-      - gamescope-libs.i686
-      - gamescope-shaders
-      - jupiter-sd-mounting-btrfs
-      - mangohud.x86_64 \
-      - mangohud.i686 
       # Fix taskbar icons for Xfce 4.20
       - gdk-pixbuf2-modules-extra
       # TODO: this is for Paint and we should package it properly and not
