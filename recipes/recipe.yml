@@ -14,7 +14,7 @@ modules:
       
   - type: dnf
     repos:
-      nonfree: rpmfusion
+      nonfree: negativo17
     install:
       packages:
       #Steam Dependancies
