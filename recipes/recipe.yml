@@ -13,7 +13,7 @@ modules:
       - 1password
 
   - type: dnf
-  repos:
+    repos:
     nonfree: rpmfusion
     install:
       packages:
