@@ -16,6 +16,7 @@ modules:
       #Programs
       - https://github.com/VSCodium/vscodium/releases/download/1.102.24914/codium-1.102.24914-el8.x86_64.rpm
       - steam
+      - lutris
       - geany
       - audacious
       - btop
