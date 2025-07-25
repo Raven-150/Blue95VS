@@ -22,9 +22,11 @@ Please follow the [Install Guide](https://blues.win/95/docs/install) in the docu
 
 - Keep upto date with the main branch
 - Work in more gaming related features such as gamescope session for steam.
+    - Gamescope+Mango Hud: (Installed packages however unable to properly test use due to my own hardware limitations at this time)
+    -  
 - Have more optimized installations for programming packages i.e. Not through flatpak
-    - VSCodium 
-    - Geany (Completed)
+    - VSCodium: (Succsessfully installed natively however method may not be futureproof)
+    - Geany: (Completed)
 
 ## Shoutouts
 - [@grassmunk](https://github.com/grassmunk)/[@dominichayesferen](https://github.com/dominichayesferen) for [Chicago95](https://github.com/grassmunk/Chicago95) and [Chicagofier](https://github.com/dominichayesferen/Chicagofier) respectively
