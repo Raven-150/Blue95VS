@@ -15,6 +15,7 @@ modules:
       packages:
       #Programs
       - steam
+      - lutris
       - geany
       - audacious
       - btop
