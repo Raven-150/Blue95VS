@@ -107,7 +107,6 @@ modules:
         - md.obsidian.Obsidian
         - net.retrodeck.retrodeck
         - com.github.tchx84.Flatseal
-        - com.vscodium.codium
         - com.moonlight_stream.Moonlight
   # Regenerate initramfs because of plymouth
   - type: initramfs
