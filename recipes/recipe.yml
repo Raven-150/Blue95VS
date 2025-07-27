@@ -94,11 +94,12 @@ modules:
   - type: default-flatpaks
     configurations:
       - scope: user
-      repo:
-        title: Flathub (user)
+        repo:
+          title: Flathub (user)
       - notify: true # Send notification after install/uninstall is finished
         scope: system
-        repo: Flathub (system)
+        repo: 
+          title: Flathub (system)
       install: #Add Desired Flatpaks
         - com.github.k4zmu2a.spacecadetpinball
         - org.gtk.Gtk3theme.Chicago95
