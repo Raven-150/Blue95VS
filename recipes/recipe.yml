@@ -8,7 +8,7 @@ image-version: 42
 
 modules:
 
-  - type: dnf5
+  - type: dnf
     repos:
       nonfree: negativo17
     install:
@@ -80,7 +80,7 @@ modules:
       # install its deps directly on the image here
       - webkit2gtk3
       # Raw RPMs
-      - https://github.com/felixrieseberg/clippy/releases/download/v0.4.0/Clippy-0.4.0-1.x86_64.rpm
+      - https://github.com/felixrieseberg/clippy/releases/download/v0.4.3/Clippy-0.4.3-1.x86_64.rpm
 
   - type: files
     files:
