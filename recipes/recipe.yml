@@ -100,18 +100,18 @@ modules:
         scope: system
         repo: 
           title: Flathub (system)
-      install: #Add Desired Flatpaks
-        - com.github.k4zmu2a.spacecadetpinball
-        - org.gtk.Gtk3theme.Chicago95
-        - com.tomjwatson.Emote
-        - org.libreoffice.LibreOffice
-        - org.mozilla.firefox
-        - com.discordapp.Discord
-        - md.obsidian.Obsidian
-        - net.retrodeck.retrodeck
-        - com.github.tchx84.Flatseal
-        - com.vscodium.codium
-        - com.moonlight_stream.Moonlight
+        install: #Add Desired Flatpaks
+          - com.github.k4zmu2a.spacecadetpinball
+          - org.gtk.Gtk3theme.Chicago95
+          - com.tomjwatson.Emote
+          - org.libreoffice.LibreOffice
+          - org.mozilla.firefox
+          - com.discordapp.Discord
+          - md.obsidian.Obsidian
+          - net.retrodeck.retrodeck
+          - com.github.tchx84.Flatseal
+          - com.vscodium.codium
+          - com.moonlight_stream.Moonlight
   # Regenerate initramfs because of plymouth
   - type: initramfs
 
