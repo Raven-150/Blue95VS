@@ -8,7 +8,7 @@ image-version: 42
 
 modules:
 
-  - type: dnf
+  - type: dnf5
     repos:
       nonfree: negativo17
     install:
