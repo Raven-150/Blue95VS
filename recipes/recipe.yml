@@ -92,11 +92,14 @@ modules:
       - 'cd $CONFIG_DIRECTORY/scripts && for script in *.sh; do [ -f "$script" ] && bash "$script"; done'
 
   - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished
-    user: {} # Just add Flathub
-    system:
-      # Flathub will be used by default
-      install:
+    configurations:
+      - scope: user
+      repo:
+        title: Flathub (user)
+      - notify: true # Send notification after install/uninstall is finished
+        scope: system
+        repo: Flathub (system)
+      install: #Add Desired Flatpaks
         - com.github.k4zmu2a.spacecadetpinball
         - org.gtk.Gtk3theme.Chicago95
         - com.tomjwatson.Emote
