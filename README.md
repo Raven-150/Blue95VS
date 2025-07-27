@@ -6,7 +6,7 @@
 ![main-screenshot](https://blue95.neocities.org/screenshot-winamp.png)
 
 Blue95 is a modern and lightweight desktop experience that is reminiscent of a bygone era of computing.
-Based on Fedora Atomic Xfce with the [Chicago95](https://github.com/grassmunk/Chicago95) theme. My adjustments are to make it more personalized to myself and adding more functionalityt for gaming and programming.
+Based on Fedora Atomic Xfce with the [Chicago95](https://github.com/grassmunk/Chicago95) theme. My adjustments to this are to make it more personalized to myself and adding more functionalityt for gaming and programming.
 
 [Screenshots](./SCREENSHOTS.md) | [Documentation](https://blues.win/95/docs)
 
@@ -22,8 +22,12 @@ Please follow the [Install Guide](https://blues.win/95/docs/install) in the docu
 
 - Keep upto date with the main branch
 - Work in more gaming related features such as gamescope session for steam.
-    - Gamescope+Mango Hud: (Installed packages however unable to properly test use due to my own hardware limitations at this time)
-    -  
+    - Gamescope+Mango Hud: To offer the ability to enter a steam OS like experiance from the desktop.
+      > (Installed packages however unable to properly test use due to my own hardware limitations at this time)
+    - Dosbox Staging: For close to authentic retro PC gaming
+    - Retrodeck: For Emulation for all classic game systems
+    - Lutris: For additional launchers and non steam games
+    - I hope to somehow add the windows entertainment pack to close out the build
 - Have more optimized installations for programming packages i.e. Not through flatpak
     - VSCodium: (Succsessfully installed natively however method may not be futureproof)
     - Geany: (Completed)
@@ -32,5 +36,5 @@ Please follow the [Install Guide](https://blues.win/95/docs/install) in the docu
 - [@grassmunk](https://github.com/grassmunk)/[@dominichayesferen](https://github.com/dominichayesferen) for [Chicago95](https://github.com/grassmunk/Chicago95) and [Chicagofier](https://github.com/dominichayesferen/Chicagofier) respectively
 - [BlueBuild](https://github.com/blue-build), [Universal Blue](https://github.com/ublue-os) and [Fedora](https://fedoraproject.org)
 - The [Xfce](https://www.xfce.org/) team
-- The Blue95 Team
+- The Blue95 Team as this fork would not exist otherwise.
  
