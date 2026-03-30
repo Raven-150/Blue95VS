@@ -12,8 +12,23 @@ modules:
       - 1password
 
   - type: dnf
+    repos:
+      nonfree: negativo17
     install:
       packages:
+      # Gaming Related Packages
+      - steam
+      - lutris
+      # Programing Related Packages
+      - geany
+      # Terminal Related Packages
+      - htop
+      - btop
+      - cool-retro-term
+      - cmatrix
+      - oneko
+      - fastfetch
+      # Base Program Packages
       - audacious
       - btop
       - catfish
@@ -26,6 +41,7 @@ modules:
       - mate-system-monitor
       - menulibre
       - neovim
+      - vim
       - orage
       - patch
       - podman-compose
@@ -62,6 +78,8 @@ modules:
       # Installer packages
       - python3-pillow
       - python3-gobject
+      - python3-icoextract
+      - python3-pip
       - gtk3
       - kmines
       # Fix taskbar icons for Xfce 4.20
@@ -79,9 +97,15 @@ modules:
           - com.github.k4zmu2a.spacecadetpinball
           - org.gtk.Gtk3theme.Chicago95
           - com.tomjwatson.Emote
-          - org.geany.Geany
+          - org.libreoffice.LibreOffice
+          - com.discordapp.Discord
           - org.libreoffice.LibreOffice
           - org.mozilla.firefox
+          - md.obsidian.Obsidian
+          - net.retrodeck.retrodeck
+          - com.github.tchx84.Flatseal
+          - com.vscodium.codium
+          - com.moonlight_stream.Moonlight
 
   - type: files
     files:
