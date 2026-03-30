@@ -20,6 +20,7 @@ modules:
       - steam
       - lutris
       # Programing Related Packages
+      - https://github.com/VSCodium/vscodium/releases/download/1.112.01907/codium-1.112.01907-el8.x86_64.rpm
       - geany
       # Terminal Related Packages
       - htop
@@ -104,7 +105,6 @@ modules:
           - md.obsidian.Obsidian
           - net.retrodeck.retrodeck
           - com.github.tchx84.Flatseal
-          - com.vscodium.codium
           - com.moonlight_stream.Moonlight
 
   - type: files
