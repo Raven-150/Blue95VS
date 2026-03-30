@@ -4,8 +4,8 @@
 
 ![main-screenshot](https://blue95.neocities.org/screenshot-winamp.png)
 
-Blue95 is a modern and lightweight desktop experience that is reminiscent of a bygone era of computing.
-Based on Fedora Atomic Xfce with the [Chicago95](https://github.com/grassmunk/Chicago95) theme.
+Blue95VS is a fork of Blue95 a lightweight desktop experience that is reminiscent of a bygone era of computing.
+Based on Fedora Atomic Xfce with the [Chicago95](https://github.com/grassmunk/Chicago95) theme. My adjustments are to make it more personalized to myself and adding more functionality for gaming and programming.
 
 [Screenshots](./SCREENSHOTS.md) | [YouTube](https://www.youtube.com/watch?v=AFS0PiBUObA) | [Documentation](https://blues.win/95/docs) 
 
@@ -13,11 +13,7 @@ Based on Fedora Atomic Xfce with the [Chicago95](https://github.com/grassmunk/Ch
 ## Try It Out
 
 > [!NOTE]  
-> Live CD is a new feature and is still in testing.
-
-We are now creating a [Live ISO](https://pub-969fbc86b5f24e4d81c6d022e8fd8dde.r2.dev/blue95-live-latest.iso) that can be used to boot into a Blue95 live environment. Test it out without needing to install anything.
-
-Note that the included installer is an alpha version with many missing features. It is recommended to install Blue95 via the methods listed in the [Install Guide](https://blues.win/95/docs/install).
+> sudo bootc switch ghcr.io/raven-150/blue95vs:latest
 
 ## Installation
 
@@ -25,12 +21,10 @@ Please follow the [Install Guide](https://blues.win/95/docs/install) in the docu
 
 ## Project Goals
 
-- Match upstream Fedora Xfce in terms of core system components and update schedule.
-- Pull in tweaks from [Universal Blue](https://github.com/ublue-os) (e.g. codecs, automatic updates, etc) to produce a more usable out-of-the box experience.
-- Provide an aesthetic rooted in a bygone era of computing.
+- Keep upto date with the main branch
+- Work in more gaming related features such as gamescope session for steam.
+- Have more optimized installations for programming packages
 
-**Non goals**:
-- Faithful reproduction of design elements from decades old operating systems. Whenever usability and exact replication are at odds, usability and accessibility will generally be preferred.
 
 
 ## Shoutouts
